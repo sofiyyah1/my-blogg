@@ -1,0 +1,124 @@
+#head1 {
+	border: 2px solid blue;
+	width: 100%;
+	height: 250px;
+	background-color: deeppink;
+}
+h1 {
+	text-align: center;
+	animation: colorchange 5s infinite;
+	text-shadow: 3px 3px blue;
+}
+@keyframes colorchange {
+	10% {color: green;}
+	50% {color: darkblue;}
+	100% {color: black;}
+}
+#head2 {
+	border: 2px solid blue;
+	width: 100%;
+	height: 400px;
+	background-color: deeppink;
+	animation: fontsize 2s infinite;
+}
+h2 {
+	padding: 10px;
+}
+img {
+	width: 100%;
+	height: 300px;
+}
+#head3 {
+	border: 2px solid blue;
+	background-color: deeppink;
+	width: 100%;
+	height: 450px;
+}
+img {
+	height: 300px;
+}
+h3 {
+	padding: 10px;
+	
+}
+@keyframes fontsize {
+	10% {font-size: 0.2em;}
+	50% {font-size: 0.5em;}
+	100% {font-size: 1em}
+}
+#head4 {
+	border: 2px solid deeppink;
+	width: 100%;
+	height: 1200px;
+	
+	opacity: 0.8;
+	animation: backgroundimage 3s infinite;
+	background-image: url("cat diagram.jpg");
+}
+h3 {
+	background-color: deeppink;
+	border: 1.5px dotted blue;
+	width: 30%;
+	height: 30px;
+	animation: backgroundcolor 3s infinite ;
+}
+p {
+	color: deeppink;
+	padding: 20px;
+	font-size: 1.5em;
+	background: rgba(0, 0, 0, 0.8);
+
+}
+@keyframes backgroundcolor {
+	10% {background-color: darkgreen;}
+	50% {background-color: darkgrey;}
+	100% {background-color: deeppink;}
+	}
+	#img {
+		width: 200px;
+		height: 200px;
+		float: right;
+	} 
+	@keyframes backgroundimage {
+		10% {background-image: url("CAT WHISKERS.png");}
+		50% {background-image: url("cat eyes.jpg"); }
+		100% {background-image: url("cat diagram.jpg");}
+	}
+#main {
+	border: 2px solid deeppink;
+	background-color: darkblue;
+	width: 100%;
+	height: 450px;
+}
+#human {
+	border: 2px solid deeppink;
+	background-color: darkblue;
+	width: 100%;
+	height: 480px;
+}
+#img2 {
+	width: 200px;
+	height: 180px;
+	float: right;
+
+}
+#disease {
+	border: 2px solid darkblue;
+	width: 100%;
+	height: 400px;
+	background-image: url("cat diagram.jpg");
+}
+#footer {
+	border: 2px dotted deeppink;
+	height: 200px;
+	width: 100%;
+}
+#images {
+	width: 80px;
+	height: 50px;
+	float: right;
+}
+
+	
+
+

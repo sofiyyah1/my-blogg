@@ -1,0 +1,16 @@
+table tr td {
+	border: 4px solid purple;
+}
+table {
+	background-color: orange;
+	background-image: url(sun.png);
+	padding: 20px;
+}
+th {
+	background-color: yellow;
+	padding: 20px;
+}
+td {
+	text-align: center;
+	padding:20px ;
+}

@@ -1,0 +1,31 @@
+body{
+	background-color: skyblue;
+	background-image: url("farm.jpg");
+	background-repeat: no-repeat;
+	/*background repeat*/
+}
+h1	{
+	color: darkred;
+	font-family: "impact";
+	text-align: center;
+	text-decoration: overline ;
+	text-shadow: 4px 4px purple;
+	letter-spacing: 2px;
+
+}
+h2	{
+	border: 5px groove darkred;
+	width: 60%;
+	text-decoration: overline;
+	background-color: yellow;
+}
+h3	{
+	text-transform: uppercase;
+}
+p  {
+	text-transform: uppercase;
+	line-height: 80px;
+
+
+}
+
